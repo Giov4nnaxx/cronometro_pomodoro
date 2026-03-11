@@ -1,12 +1,10 @@
-.container-fluid{
-    max-width: auto;
+.container-fluid {
+  max-width: auto;
 }
-.container{
-    max-width: 90rem;
-    margin:0 auto;
-    background-color: red;
+.container {
+  max-width: 90rem;
+  margin: 0 auto;
 }
-.content{
-    margin: 3.2rem;
-    background-color: blue;
+.content {
+  margin: 3.2rem;
 }
