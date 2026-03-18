@@ -1,0 +1,13 @@
+.cycles{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: baseline;
+  gap: 1.6rem;
+}
+.cycleDots{
+
+}
+.workTime{
+  
+}
