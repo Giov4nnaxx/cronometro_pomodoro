@@ -6,8 +6,21 @@
   gap: 1.6rem;
 }
 .cycleDots{
-
+  display: flex;
+  gap: 1.6rem;
+}
+.cycleDot{
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--primary);
+  border-radius: 50%;
 }
 .workTime{
-  
+  background-color: var(--warning);
+}
+.shortBreakTime{
+  background-color: var(--primary);
+}
+.longbreakTime{
+  background-color: var(--info);
 }

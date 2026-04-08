@@ -1,5 +1,4 @@
 import styles from './styles.module.css';
-import {Circle} from 'lucide-react'
 
 export function Cycles(){
     return(
@@ -8,19 +7,15 @@ export function Cycles(){
             <span>Ciclos:</span>
         </div>
         <div className={styles.cycleDots}>
-            <span className={`${styles.cycleDots}$
-            {styles.workTime}`}></span>
-            <span className={`${styles.cycleDots}$
-            {styles.workTime}`}></span>
-            <span className={`${styles.cycleDots}$
-            {styles.workTime}`}></span>
-            <span className={`${styles.cycleDots}$
-            {styles.workTime}`}></span>
-            <span className={`${styles.cycleDots}$
-            {styles.workTime}`}></span>
-            <span className={`${styles.cycleDots}$
-            {styles.workTime}`}></span>
-        </div>
+        <span className={`${styles.cycleDot} ${styles.workTime}`}></span>
+        <span className={`${styles.cycleDot} ${styles.shortBreakTime}`}></span>
+        <span className={`${styles.cycleDot} ${styles.workTime}`}></span>
+        <span className={`${styles.cycleDot} ${styles.shortBreakTime}`}></span>
+        <span className={`${styles.cycleDot} ${styles.workTime}`}></span>
+        <span className={`${styles.cycleDot} ${styles.shortBreakTime}`}></span>
+        <span className={`${styles.cycleDot} ${styles.workTime}`}></span>
+        <span className={`${styles.cycleDot} ${styles.longbreakTime}`}></span>
+      </div>
         </>
     )
 }
